@@ -263,8 +263,8 @@ table{border-collapse: collapse;text-align:center;}
 .tablebx1 table .spot em{position:absolute;display:inline-block;padding-left:26px;width:100px;left:0;top:4px;}
 
 .dm_bx{ position:relative;width:100%;}
-.datebx {display:inline-block;width:260px;height:30px;}
-.datebx .calen{background:url(../images/calender.svg) no-repeat 226px center;background-size:20px auto;}
+.dm_bx .datebx {display:inline-block;width:260px;height:30px;}
+.dm_bx .datebx .calen{background:url(../images/calender.svg) no-repeat 226px center;background-size:20px auto;}
 .dm_bx .month{position:absolute;top:0px;left:550px;display:flex;}
 .dm_bx .month span{display:inline-block;width:60px;height:30px;text-align:center;cursor:pointer;line-height:30px;border-left:1px solid #88BFB5;border-top:1px solid #88BFB5;border-bottom:1px solid #88BFB5;}
 .dm_bx .month span:last-child{border-right:1px solid #88BFB5;}
