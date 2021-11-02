@@ -247,30 +247,29 @@ input[type=text]:focus {
   } 
 
   input:focus { outline: none; }*/
-  input:focus {outline: none;border-color: #88BFB5}
+input:focus {outline: none;border-color: #88BFB5}
 
-  .tablebx{margin:10px}
-  .tablebx table{border-collapse: collapse;text-align:center;}
-  .tablebx table th{height:52px;background:#EFF5F4;border-top:1px solid #E5E5E5;border-bottom:1px solid #E5E5E5;vertical-align: center;font-size:13px;}
-  .tablebx table td{height:52px;border-bottom:1px solid #E5E5E5;font-size:12px;}
-  .tablebx table .spot {display:block;margin-bottom:30px}
+table{border-collapse: collapse;text-align:center;}
 
-  .tablebx1{margin:10px}
-  .tablebx1 table{border-collapse: collapse;text-align:center;}
-  .tablebx1 table th{height:52px;background:#EFF5F4;border-top:1px solid #E5E5E5;border-bottom:1px solid #E5E5E5;text-align:left;vertical-align: center;padding-left:16px;font-size:13px;}
-  .tablebx1 table td{padding:0 32px ;height:52px;border-bottom:1px solid #E5E5E5;border-top:1px solid #E5E5E5;font-size:12px;text-align:left;vertical-align: center;}
-  .tablebx1 table .spot {position:relative;display:inline-block;margin-bottom:30px;width:80px;}
-  .tablebx1 table .spot em{position:absolute;display:inline-block;padding-left:26px;width:100px;left:0;top:4px;}
+.tablebx{margin:10px}
+.tablebx table th{height:52px;background:#EFF5F4;border-top:1px solid #E5E5E5;border-bottom:1px solid #E5E5E5;vertical-align: center;font-size:13px;}
+.tablebx table td{height:52px;border-bottom:1px solid #E5E5E5;font-size:12px}
+.tablebx table .spot {display:block;margin-bottom:30px}
 
-.bx{ position:relative;width:100%;}
+.tablebx1{margin:10px}
+.tablebx1 table th{height:52px;background:#EFF5F4;border-top:1px solid #E5E5E5;border-bottom:1px solid #E5E5E5;text-align:left;vertical-align: center;padding-left:16px;font-size:13px;}
+.tablebx1 table td{padding:0 32px ;height:52px;border-bottom:1px solid #E5E5E5;border-top:1px solid #E5E5E5;font-size:12px;text-align:left;vertical-align: center;}
+.tablebx1 table .spot {position:relative;display:inline-block;margin-bottom:30px;width:80px;}
+.tablebx1 table .spot em{position:absolute;display:inline-block;padding-left:26px;width:100px;left:0;top:4px;}
+
+.dm_bx{ position:relative;width:100%;}
 .datebx {display:inline-block;width:260px;height:30px;}
 .datebx .calen{background:url(../images/calender.svg) no-repeat 226px center;background-size:20px auto;}
-.bx .month{position:absolute;top:0px;left:550px;display:flex;}
-.bx .month span{display:inline-block;width:60px;height:30px;text-align:center;cursor:pointer;line-height:30px;border-left:1px solid #88BFB5;border-top:1px solid #88BFB5;border-bottom:1px solid #88BFB5;}
-.bx .month span:last-child{border-right:1px solid #88BFB5;}
+.dm_bx .month{position:absolute;top:0px;left:550px;display:flex;}
+.dm_bx .month span{display:inline-block;width:60px;height:30px;text-align:center;cursor:pointer;line-height:30px;border-left:1px solid #88BFB5;border-top:1px solid #88BFB5;border-bottom:1px solid #88BFB5;}
+.dm_bx .month span:last-child{border-right:1px solid #88BFB5;}
 
-.bx .month span.on{display:inline-block;width:60px;height:30px;text-align:center;line-height:30px;background:#88BFB5;}
-
+.dm_bx .month span.on{display:inline-block;width:60px;height:30px;text-align:center;line-height:30px;background:#88BFB5;}
 
 .selectbx {position:relative;display:inline-block;width:600px;}
 .selectbx span{display:inline-block;width:260px;}
