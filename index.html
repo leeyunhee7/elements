@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+    <title>admin_elements</title>
+    <meta name="description" content="admin_elements">
+    <link rel="stylesheet" href="css/elements.css">
+    <link rel="stylesheet" href="css/admin_reset.css">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=NotoSansKR' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+
+    <!-- <div class="btnbx"><button type="button" onclick="window.open('');"></button></div> 
+    <button type="button" onclick="location.href='survey_sub.html'"></button>
+    -->
+
+    <h1>Admin elements</h1>
+    <p>Button, Inputbox, Selectbox</p>
+    <h2>Button</h2>
+    <div class="btnbx">
+        <button class="btn lrg bg_green">Green-bg</button>
+        <div class="md"></div>
+        <button class="btn lrg bg_lightgreen">lightgreen-bg</button>
+        <div class="md"></div>
+        <button class="btn lrg line_green">green-line</button>
+        <div class="md"></div>
+        <button class="btn mid bg_green">Green-bg</button>
+        <button class="btn mid line_green">green-line</button>
+        <div class="md"></div>
+        <button class="btn sm bg_green">Green-bg</button>
+        <button class="btn sm line_green">green-line</button>
+        <div class="md"></div>
+        <!-- 
+        <button class="btn lrg bg_org">Orange-bg</button>
+        <div class="md"></div>
+        <button class="btn lrg bg_lightorg">lightorange-bg</button>
+        <div class="md"></div>
+        <button class="btn lrg line_org">Orange-line</button>
+        <div class="md"></div>    
+        <button class="btn mid bg_org">Orange-bg</button>
+        <button class="btn mid line_org">Orange-line</button>
+        <div class="md"></div>
+        <button class="btn sm bg_org">Orange-bg</button>
+        <button class="btn sm line_org">Orange-line</button> -->
+    </div>
+
+    <div class="inputbx">
+        <input class="checkbx" type="checkbox" id="name" name="info"><label for="name"></label>
+        <div class="md"></div>
+        <input class="radiobx" type="radio" id="address" name="info1"><label for="address"></label>
+        <div class="md"></div>
+        <input type="text" id="address" name="info1" placeholder="안녕하세요"><label for="address"></label>
+        <div class="md"></div>
+        <div class="md"></div>
+        <!-- <input class="bg" type="text" id="address" name="info1" placeholder="안녕하세요"><label for="address"></label>
+        <div class="md"></div> -->
+    </div>
+
+
+    <div class="tablebx">
+        <table style="width: 100%;">
+            <colgroup>
+                <col width="5%">
+                <col width="7%">
+                <col width="10%">
+                <col width="10%">
+                <col width="10%">
+                <col width="*">
+                <col width="10%">
+                <col width="10%">
+                <col width="10%">
+                <col width="10%">
+            </colgroup>
+
+            <tr>
+                <th>
+                    <div class="spot"><input class="checkbx" type="checkbox" id="list1" name="list_check"><label
+                            for="list1"></label></div>
+                </th>
+                <th>구분</th>
+                <th>상태</th>
+                <th>분류</th>
+                <th>게시여부</th>
+                <th>제목</th>
+                <th>조회수</th>
+                <th>게시자</th>
+                <th>게시기간</th>
+                <th>비고</th>
+
+            </tr>
+            <tr>
+                <td>
+                    <div class="spot"><input class="checkbx" type="checkbox" id="list2" name="list_check"><label
+                            for="list2"></label></div>
+                </td>
+                <td>전체</td>
+                <td>공지</td>
+                <td>일반</td>
+                <td>게시</td>
+                <td>건강하다 출시안내</td>
+                <td>10,000</td>
+                <td>scn345</td>
+                <td>2021.08.01~12.31</td>
+                <td><button class="btn sm bg_green">top등록</button></td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="spot"><input class="checkbx" type="checkbox" id="list3" name="list_check"><label
+                            for="list3"></label></div>
+                </td>
+                <td>전체</td>
+                <td>공지</td>
+                <td>일반</td>
+                <td>게시</td>
+                <td>건강하다 출시안내</td>
+                <td>10,000</td>
+                <td>scn345</td>
+                <td>2021.08.01~12.31</td>
+                <td><button class="btn sm line_green">top해제</button></td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="spot"><input class="checkbx" type="checkbox" id="list4" name="list_check"><label
+                            for="list4"></label></div>
+                </td>
+                <td>전체</td>
+                <td>공지</td>
+                <td>일반</td>
+                <td>게시</td>
+                <td>건강하다 출시안내</td>
+                <td>10,000</td>
+                <td>scn345</td>
+                <td>2021.08.01~12.31</td>
+                <td><button class="btn sm bg_green">top등록</button></td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="spot"><input class="checkbx" type="checkbox" id="list5" name="list_check"><label
+                            for="list5"></label></div>
+                </td>
+                <td>전체</td>
+                <td>공지</td>
+                <td>일반</td>
+                <td>게시</td>
+                <td>건강하다 출시안내</td>
+                <td>10,000</td>
+                <td>scn345</td>
+                <td>2021.08.01~12.31</td>
+                <td><button class="btn sm line_green">top해제</button></td>
+            </tr>
+
+        </table>
+    </div>
+
+    <div class="tablebx1">
+        <table style="width: 100%;">
+            <colgroup>
+                <col width="200px">
+                <col width="*">
+
+            </colgroup>
+
+            <tr>
+                <th>가입일 기간선택</th>
+                <td>
+                    <div class="bx">
+                        <div class="datebx"><input type="text" id="address" name="info1" placeholder="2021.04.01"
+                                class="calen"><label for="address"></label></div> ~ <div class="datebx"><input
+                                type="text" id="address" name="info1" placeholder="2021.04.01" class="calen"><label
+                                for="address"></label> </div>
+
+                        <div class="month">
+                            <span>11월</span><span>12월</span><span>1월</span><span>2월</span><span>3월</span><span
+                                class="on">4월</span>
+
+                        </div>
+                    </div>
+                </td>
+
+
+
+            </tr>
+            <tr>
+                <th>게시물상태</th>
+                <td>
+                    <div class="spot"><input class="checkbx" type="checkbox" id="state1" name="list_check"><label
+                            for="state1"><em>전체</em></label></div>
+                    <div class="spot"><input class="checkbx" type="checkbox" id="state2" name="list_check"><label
+                            for="state2"><em>게시</em></label></div>
+                    <div class="spot"><input class="checkbx" type="checkbox" id="state3" name="list_check"><label
+                            for="state3"><em>미게시</em></label></div>
+                </td>
+
+
+            </tr>
+            <tr>
+                <th>직접검색</th>
+                <td>
+                    <div class="selectbx">
+                        <span>
+                            <select id="departure" name="departure">
+                                <option value="none">검색1</option>
+                                <option value="canada">검색2</option>
+                                <option value="usa">검색3</option>
+                            </select>
+                        </span>
+                        <em><input type="text" id="cont" name="info1" placeholder="cont"><label for="cont"></label></em>
+                    </div>
+                </td>
+
+
+            </tr>
+
+
+        </table>
+    </div>
+
+</body>
+
+</html>
