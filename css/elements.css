@@ -249,7 +249,7 @@ input[type=text]:focus {
   input:focus { outline: none; }*/
 input:focus {outline: none;border-color: #88BFB5}
 
-table{border-collapse: collapse;text-align:center;}
+table{border-collapse: collapse;text-align:center;width:100%}
 
 .tablebx{margin:10px}
 .tablebx table th{height:52px;background:#EFF5F4;border-top:1px solid #E5E5E5;border-bottom:1px solid #E5E5E5;vertical-align: center;font-size:13px;}
