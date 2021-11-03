@@ -343,5 +343,7 @@ table{border-collapse: collapse;text-align:center;width:100%}
 .findpw_bx p{padding:60px 0 30px 0;font-size:24px;}
 .findpw_bx span{display:block;color:#db0000;padding-top:60px;text-align:left;font-size:16px}
 
+.popupbx{display:flex;width:500px;text-align:center;justify-content: center;}
+
 
 
