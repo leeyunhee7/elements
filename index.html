@@ -28,6 +28,8 @@
     <div class="btnbx">
         <button class="btn lrg bg_green">Green-bg</button>
         <div class="md"></div>
+        <button class="btn lrg bg_gray">Gray-bg</button>
+        <div class="md"></div>
         <button class="btn lrg bg_lightgreen">lightgreen-bg</button>
         <div class="md"></div>
         <button class="btn lrg line_green">green-line</button>
@@ -58,13 +60,13 @@
         <input class="radiobx" type="radio" id="address" name="info1"><label for="address"></label>
         <div class="md"></div>
         <input type="text" id="address" name="info1" placeholder="안녕하세요"><label for="address"></label>
-        <div class="md"></div>
+        
         <div class="md"></div>
         <!-- <input class="bg" type="text" id="address" name="info1" placeholder="안녕하세요"><label for="address"></label>
         <div class="md"></div> -->
     </div>
 
-
+ <!-- 테이블1 -->
     <div class="tablebx">
         <table>
             <colgroup>
@@ -83,7 +85,8 @@
             <tr>
                 <th>
                     <div class="spot"><input class="checkbx" type="checkbox" id="list1" name="list_check"><label
-                            for="list1"></label></div>
+                            for="list1"></label>
+                    </div>
                 </th>
                 <th>구분</th>
                 <th>상태</th>
@@ -160,14 +163,13 @@
         </table>
     </div>
 
+    <!-- 테이블2 -->
     <div class="tablebx1">
         <table style="width: 100%;">
             <colgroup>
                 <col width="200px">
                 <col width="*">
-
             </colgroup>
-
             <tr>
                 <th>가입일 기간선택</th>
                 <td>
@@ -184,9 +186,6 @@
                         </div>
                     </div>
                 </td>
-
-
-
             </tr>
             <tr>
                 <th>게시물상태</th>
@@ -198,8 +197,6 @@
                     <div class="spot"><input class="checkbx" type="checkbox" id="state3" name="list_check"><label
                             for="state3"><em>미게시</em></label></div>
                 </td>
-
-
             </tr>
             <tr>
                 <th>직접검색</th>
@@ -215,13 +212,36 @@
                         <em><input type="text" id="cont" name="info1" placeholder="cont"><label for="cont"></label></em>
                     </div>
                 </td>
-
-
             </tr>
-
-
         </table>
     </div>
+
+    <div class="space"></div>
+
+<!-- 로그인 -->
+    <div class="loginbx">
+        <h1><img src="images/login_logo.svg"></h1>
+        <p>Admin Login</p>
+        <div class="id_pw_bx">
+            <input type="text" id="id" name="info1" placeholder="아이디" class="id"><label for="id"></label>
+            <input type="password" id="pw" name="info1" placeholder="비밀번호" class="pw"><label for="pw"></label>
+            <button class="btn lrg bg_gray">로그인</button>
+
+            <span class="txt">아이디 또는 비밀번호를 다시 확인해 주세요. 아이디 또는 비밀번호를 다시 확인해 주세요.</span>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="space"></div>
+   
 
 </body>
 
