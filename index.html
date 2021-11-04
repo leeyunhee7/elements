@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="format-detection" content="telephone=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>  -->
     <title>admin_elements</title>
     <meta name="description" content="admin_elements">
     <link rel="stylesheet" href="css/elements.css">
@@ -14,6 +14,11 @@
     <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=NotoSansKR' rel='stylesheet' type='text/css'>
 </head>
+<script>
+    function closeMethod() {
+      window.close();
+    }
+  </script>
 
 <body>
 
@@ -259,25 +264,38 @@
     <!-- 팝업 -->
     <div class="popup_bx">
         <p><em>ooo </em>항목을 입력해주세요. 항목을 입력해주세요. 항목을 입력해주세요.항목을 입력해주세요</p>
-        <span> <button class="btn mid bg_green">확인</button></span>
+        <span> <button class="btn mid bg_green" value="창닫기" onClick="window.close()">확인</button></span>
     </div>
     <!-- //팝업 -->
 
     <div class="space"></div>
+    
+    <button onclick="document.getElementById('id01').style.display='block'" style="display:block;margin:0 auto">제목이 있는 팝업입니다 <br> "click" </button>
+    
 
      <!-- 제목있는팝업 -->
-     <div class="popup_bx">
+     <div class="popup_bx" id="id01" style="display:none;">
          <div class="tit">제목입니다.</div>
         <p><em>ooo </em>항목을 입력해주세요. 항목을 입력해주세요. 항목을 입력해주세요.항목을 입력해주세요</p>
-        <span> <button class="btn mid bg_green">확인</button></span>
+        <span onclick="document.getElementById('id01').style.display='none'" > <button class="btn mid bg_green" onclick="self.close()">확인</button></span>
+       
+       
     </div>
     <!-- //제목있는팝업 -->
 
-
-
-
-
-
+    
+    <script>
+        // Get the modal
+        var modal = document.getElementById('id01');
+        
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == body) {
+            modal.style.display = "none";
+          }
+        }
+        </script>
+        
 
 
 
