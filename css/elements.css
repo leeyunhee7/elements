@@ -343,8 +343,8 @@ table{border-collapse: collapse;text-align:center;width:100%}
 .findpw_bx p{padding:60px 0 30px 0;font-size:24px;}
 .findpw_bx span{display:block;color:#db0000;padding-top:60px;text-align:left;font-size:16px}
 
-.popup_bx{position:relative;margin:0 auto;width:500px;height:288px;text-align:center;border:1px solid #cecece;padding:30px 30px}
-.popup_bx .tit{padding-bottom:20px;font-size:16px;border-bottom:1px solid #88BFB5;text-align:left;color:#07403A}
+.popup_bx{position:relative;margin:0 auto;width:500px;height:288px;text-align:center;border:1px solid #cecece;padding:30px 30px;}
+.popup_bx .tit{padding-bottom:20px;font-size:16px;border-bottom:1px solid #88BFB5;text-align:left;color:#88BFB5}
 .popup_bx p{padding-top: 50px;font-size:15px;line-height:1.4em;text-align:left;}
 .popup_bx span{position:absolute;display:block;bottom:40px;left:50%;margin-left:-45px;}
 
