@@ -100,24 +100,20 @@ input.checkbx[type="checkbox"]:not(:checked) + label
     position: relative;
     cursor: pointer;
     display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ddd;
     /*padding-left: 28px;
     color: #666;
         line-height: 20px;
     border:1px solid black;*/
     
 }
-input.checkbx[type="checkbox"]:checked + label:before,
+/* input.checkbx[type="checkbox"]:checked + label:before,
 input.checkbx[type="checkbox"]:not(:checked) + label:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 18px;
-    height: 18px;
-    border: 1px solid #ddd;
-
-    background: #fff;
-}
+  
+  
+} */
 
 
 input.checkbx[type="checkbox"]:checked + label:after,
@@ -126,15 +122,17 @@ input.checkbx[type="checkbox"]:not(:checked) + label:after {
     position: absolute;
     top: 0px;
     left: 5px;  
- 
+  
   height:12px;
   width:6px;
   border-bottom:4px solid #88BFB5;
   border-right: 4px solid #88BFB5;
   -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
+    
    
 }
+
 input.checkbx[type="checkbox"]:not(:checked) + label:after {
     opacity: 0;
     -webkit-transform: scale(0);
@@ -146,6 +144,7 @@ input.checkbx[type="checkbox"]:checked + label:after {
     -webkit-transform: scale(1);
     transform: scale(1);
     transform: rotate(45deg);
+    
 }
 
 input.radiobx[type="radio"]:checked + label,
@@ -154,7 +153,11 @@ input.radiobx[type="radio"]:not(:checked) + label
   position: relative;
   cursor: pointer;
   display: inline-block;
-  
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  background: #fff;
   /*padding-left: 28px;
   color: #666;
       line-height: 20px;
@@ -162,7 +165,7 @@ input.radiobx[type="radio"]:not(:checked) + label
    
     
 }
-input.radiobx[type="radio"]:checked + label:before,
+/* input.radiobx[type="radio"]:checked + label:before,
 input.radiobx[type="radio"]:not(:checked) + label:before {
     content: '';
     position: absolute;
@@ -173,15 +176,15 @@ input.radiobx[type="radio"]:not(:checked) + label:before {
     border: 1px solid #ddd;
     border-radius: 20px;
     background: #fff;
-}
+} */
 
 
 input.radiobx[type="radio"]:checked + label:after,
 input.radiobx[type="radio"]:not(:checked) + label:after {
     content: '';
     position: absolute;
-    top: 3px;
-    left:3px;  
+    top: 2px;
+    left:2px;  
     border-radius: 16px;
   width: 16px;
     height: 16px;
@@ -211,9 +214,8 @@ input[type=text],select {
 	border: 1px solid #E5E5E5;
 	box-sizing: border-box;
 
- 
 	
-  }
+}
 
 
 
@@ -227,7 +229,7 @@ input.id[type=text]{
   border-radius:5px 5px 0px 0px ;
   background:url(../images/icon_id.svg) no-repeat 16px center #ffffff;background-size:20px auto;
 
-  }
+}
 
   
 input.pw[type=password]{
@@ -313,12 +315,12 @@ table{border-collapse: collapse;text-align:center;width:100%}
 .tablebx{margin:10px}
 .tablebx table th{height:52px;background:#EFF5F4;border-top:1px solid #E5E5E5;border-bottom:1px solid #E5E5E5;vertical-align: center;font-size:13px;}
 .tablebx table td{height:52px;border-bottom:1px solid #E5E5E5;font-size:12px;background:#ffffff;}
-.tablebx table .spot {display:block;margin-bottom:30px}
+.tablebx table .spot {}
 
 .tablebx1{margin:10px}
 .tablebx1 table th{height:52px;background:#EFF5F4;border-top:1px solid #E5E5E5;border-bottom:1px solid #E5E5E5;text-align:left;vertical-align: center;padding-left:16px;font-size:13px;}
 .tablebx1 table td{padding:0 32px ;height:52px;border-bottom:1px solid #E5E5E5;border-top:1px solid #E5E5E5;font-size:12px;text-align:left;vertical-align: center;background:#ffffff;}
-.tablebx1 table .spot {position:relative;display:inline-block;margin-bottom:30px;width:80px;}
+.tablebx1 table .spot {position:relative;display:inline-block;width:80px;}
 .tablebx1 table .spot em{position:absolute;display:inline-block;padding-left:26px;width:100px;left:0;top:4px;}
 
 .dm_bx{ position:relative;width:100%;}
@@ -344,10 +346,6 @@ table{border-collapse: collapse;text-align:center;width:100%}
 .findpw_bx span{display:block;color:#db0000;padding-top:60px;text-align:left;font-size:16px}
 
 .popup_bx{position:relative;margin:0 auto;width:500px;height:288px;text-align:center;border:1px solid #cecece;padding:30px 30px;}
-.popup_bx .tit{padding-bottom:20px;font-size:16px;border-bottom:1px solid #88BFB5;text-align:left;color:#88BFB5}
+.popup_bx .tit{padding-bottom:20px;font-size:16px;border-bottom:1px solid #88BFB5;text-align:left;color:#88BFB5;}
 .popup_bx p{padding-top: 50px;font-size:15px;line-height:1.4em;text-align:left;}
 .popup_bx span{position:absolute;display:block;bottom:40px;left:50%;margin-left:-45px;}
-
-
-
-
