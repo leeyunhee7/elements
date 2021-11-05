@@ -315,7 +315,6 @@ table{border-collapse: collapse;text-align:center;width:100%}
 .tablebx{margin:10px}
 .tablebx table th{height:52px;background:#EFF5F4;border-top:1px solid #E5E5E5;border-bottom:1px solid #E5E5E5;vertical-align: center;font-size:13px;}
 .tablebx table td{height:52px;border-bottom:1px solid #E5E5E5;font-size:12px;background:#ffffff;}
-.tablebx table .spot {}
 
 .tablebx1{margin:10px}
 .tablebx1 table th{height:52px;background:#EFF5F4;border-top:1px solid #E5E5E5;border-bottom:1px solid #E5E5E5;text-align:left;vertical-align: center;padding-left:16px;font-size:13px;}
