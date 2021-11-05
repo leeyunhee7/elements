@@ -120,8 +120,8 @@ input.checkbx[type="checkbox"]:checked + label:after,
 input.checkbx[type="checkbox"]:not(:checked) + label:after {
     content: '';
     position: absolute;
-    top: 0px;
-    left: 5px;  
+    top: -2px;
+    left: 4px;  
   
   height:12px;
   width:6px;
